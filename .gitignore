@@ -1,0 +1,24 @@
+# 编译产物 C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.bin
+*.elf
+*.so
+*.dll
+
+# IDE 相关
+.vscode/
+.idea/
+cmake-build-*/
+CMakeCache.txt
+*.user
+*.suo
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
