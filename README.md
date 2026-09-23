@@ -23,11 +23,14 @@
 - [ ] 销毁链表
 - stack_queue/ 栈、队列
 - ## 顺序栈
-- [x] 顺序栈结构体定义、初始化
-- [x] 判断栈空
-- [x] 入栈 Push
+### 动态顺序栈（malloc版本，王卓教材C语言实现）
+- [x] 结构体定义 base/top/stacksize
+- [x] 初始化 InitStack
+- [x] 判空 StackEmpty
+- [x] 入栈 Push（支持自动扩容realloc）
 - [x] 出栈 Pop
-- [x] 获取栈顶元素 GetTop
+- [x] 获取栈顶 GetTop
+- [x] 销毁栈 DestroyStack，释放malloc内存
 - [ ] 链栈实现
 - tree/ 树相关
 - sort/ 排序算法
